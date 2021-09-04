@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Home Page | Shashank Jaiswal, AAE, Purdue University">
+	<meta  name="keywords" content="Shashank Jaiswal, Aeronautics, AAE, Purdue, Purdue University, Boilermakers, Boilers, West Lafayette, Indiana, United States, college, university, higher education"/>
+    <meta name="author" content="Shashank Jaiswal">
+	
+	<!-- For pretty inline-URLs on networking sites -->
+	<meta property="og:url" content="http://web.ics.purdue.edu/~jaiswal0" />
+	<meta property="og:type" content="website"/>
+	<meta property="og:title" content="Shashank Jaiswal - Purdue University" />
+	<meta property="og:description" content="Home Page | Shashank Jaiswal, AAE, Purdue University" />
+	<meta property="og:image" content="images/shashank-jaiswal.png"/>
+		
+    <link rel="icon" href="images/favicon.ico">
+    <title>Shashank Jaiswal - Purdue University</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template (one with navigation bar) -->
+    <link href="css/theme.css" rel="stylesheet"> 
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+  </head>
+
+  <body>
+
+    <div class="container theme-showcase" role="main">
+
+      <!-- Main heading with contact information -->
+      <div>
+		<span class="border border-primary">
+	    <img class="pull-right img-thumbnail" src="./images/shashank-jaiswal.png" alt="Profile-Image" width="175" height="198"> 
+		</span>
+        <h3> Shashank Jaiswal </h3>
+        I'm currently a senior software developer at Altair Engineering. </br>
+        I'm a graduate of Purdue University [PhD (Aeronautics), MS (Physics, Aeronautics)], and Indian Institute of Technology [B.Tech (Mech)] 
+        <div style="width: 80%;" class="text-sm text-light mt-2 mb-2 text-justify">
+          My work spans several areas of science and engineering such as Computational Fluid Dynamics, High performance computing, Kinetic theory, Statistical learning, Quantum computing, Augmented Reality, Numerical relativity, and Control/Logic. I have several research monographs and patents on some of these topics. 
+          </br>
+          I believe that curiosity can never be contained and innovations happen in multi-disciplinary fields. Any field of endeavor in its highest form is an art ... and you cannot be trained in an art. What is an art ... first hand experiences, the capability to conceive a wild idea and build necessary courage to make that idea work in practice. I consider myself as a part mathematician, part engineer, part programmer, and part philosopher.
+        </div>
+        <a href="mailto:jaisw7@gmail.com"> jaisw7@gmail.com </a> | 
+        <a href="https://linkedin.com/in/shashank-jaiswal">LinkedIn</a> | 
+        <a href="https://github.com/jaisw7">GitHub</a> | <a href="./assets/Resume_Shashank.pdf">Resume</a> | 
+        <a href="https://flickr.com/jaisw7">Trips</a> |
+        <a href="https://leetcode.com/jaisw7">LeetCode</a> | 
+        <a href="https://hackerrank.com/jaisw7">HackerRank</a> 
+      </br>
+      </div>
+
+      <div class="page-header">
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#nav-projects" data-toggle="tab">Projects</a></li>
+        </ul>
+        <div class="tab-content" id="nav-tabContent">
+          <!-- Projects -->
+          <div class="tab-pane active" id="nav-projects" role="tabpanel" aria-labelledby="nav-projects-tab">
+
+
+            <h4>  </h4>
+
+        <!-- Non-linear Boltzmann equation -->
+            
+            <div class="media">
+                <img class="img-thumbnail pull-left media-object" src="./pubs/jaiswal2021boltzmann.png" alt="Unstructured adaptivity" width="250" height="190">
+                  <div class="media-body">
+                    <h4>Non-linear Boltzmann equation on hybrid-unstructured non-conforming multi-domains</h4>
+                    <h5 class="media-heading muted"> <i>Shashank Jaiswal</i></br>
+                    <p>2021 Elsevier, Journal of Computational Physics, Submitted: 16th Jan 2021, Accepted: 2 September 2021</p>
+                    </h5>
+                    <p align="justify" class="abstract"><b>Abstract:</b> Adaptivity is crucial for addressing practical challenges of the next decades. In this regard, recent surveys highlight that it continues to be a major bottleneck in computational fluid dynamics workflow. We introduce mixed non-conforming discontinuous Galerkin discretization for the full Boltzmann equation in 2D/3D. These schemes have been designed for efficiency - motivated in part by spectral and isogeometric weighted collo- cation methods — and retain an optimal O(p + 1) convergence for a p order approximation for non-linear kinetic systems on non-orthogonal grids. In this setting, it is possible to analyze highly complex problems of industrial strength i.e., structured, unstructured, mixed, irregular, multi-domain (multi-block) adaptive geometries at mas- sively parallel scale (ten thousand cores or beyond). Mixed domains permit flexible mesh generation, whereas local nature of discontinuous Galerkin permits construction of adaptive numerical schemes that scale well. To address flows in mixing regime (low/high rarefaction), we couple the scheme with an asymptotic preserving implicit-explicit time discretization. These schemes are iteration free and applicable for a wide range of rarefied flows from free- molecular to continuum. To ensure stability in presence of shocks, we describe a method of constructing limiters on non-conforming grids. Finally, we show that the computational overhead for solving kinetic equations on non- conforming structured/unstructured domains is negligible relative to conforming domains. So, there is no reason to not prefer non-conforming unstructured domains.
+                    <p> <a href="./pubs/jaiswal2021boltzmann.pdf">PDF</a> | <a href="./pubs/jaiswal2021boltzmann.bib">BibTex</a></p>
+                    <i style="color:red;">Second monograph written during PhD ... probably the only student at Purdue to pull it off!</i>
+                    </br>
+                    <p><b>To prospective graduates</b>: Do not let your persistence defeat you.</p>
+              </div>
+            </div>
+
+      <div role="separator" class="divider"><hr></hr></div>
+
+        <!-- Isogeometric analysis -->
+            
+            <div class="media">
+                <img class="img-thumbnail pull-left media-object" src="./pubs/jaiswal2021isogeometric.png" alt="Deformed CAD geometry" width="250" height="190">
+                  <div class="media-body">
+                    <h4>Isogeometric schemes in rarefied gas dynamics contexts</h4>
+                    <h5 class="media-heading muted"> <i>Shashank Jaiswal</i></br>
+                    <p>2021 Elsevier, Computer Methods in Applied Mechanics and Engineering, Submitted: 31st May 2021, Accepted: 10 May 2021</p>
+                    </h5>
+                    <p align="justify" class="abstract"><b>Abstract:</b> Geometrical complexity is typical of missile and reentry systems, small-scale devices with intrinsic milli-to-micro scale features, or in general topology-rich systems. Additionally, at high altitudes or at microscales, when the flow becomes rarefied, the conventional continuum/macroscopic equations produce unsatisfactory results. A microscopic/kinetic description becomes necessary. In this work, we introduce isogeometric (IG) kinetic schemes (KS) for the full Boltzmann equation and related kinetic models (Bhatnagar–Gross–Krook (BGK), Ellipsoidal statistical BGK, and Shakov). These schemes are specifically aimed for modeling flows in topologically complex "multi-patch" geometries such as those constructed using computer-aided geometric design tools; high order accurate; unconditionally time-stable (as per our tests) following generalized-alpha method; non-linearly stable following streamlined upwind Petrov–Galerkin method applied at every patch level with patch-to-patch coupling enforced either strongly by constraining the interface using single degree of freedom, or weakly using numerical fluxes as in discontinuous Galerkin (useful because the underlying system is first order in space); amenable to nearly-linear parallel efficiency owing to the six-dimensional nature of Boltzmann equation, wherein the convection and collision can be, respectively, performed simultaneously over velocity and physical spaces. In particular, since the surface representation is exact in IG, when surface properties are to be computed, which is often the case in aerodynamic applications, these schemes perform well. A series of verification tests for 1D/2D/3D-3V initial–boundary value and boundary-value flow problems, involving momentum, energy, and diffusive transport, including problems posed on non-conforming domains/patches, is performed to illustrate the stability and accuracy of the proposed method.
+                    <p> <a href="./pubs/jaiswal2021isogeometric.pdf">PDF</a> | <a href="./pubs/jaiswal2021isogeometric.bib">BibTex</a></p>
+                    <i style="color:red;">First monograph written even before PhD preliminary examination ... probably the only student at Purdue to pull it off!</i>
+                    </br>
+                    <p><b>To prospective graduates</b>: Independence instills the courage to live life on your own terms.</p>
+              </div>
+            </div>
+
+      <div role="separator" class="divider"><hr></hr></div>
+
+
+          <h4> <b>Masters:</b> </h4>
+
+		<!-- DEEKSHA -->
+            
+		<div class="media">
+              <img class="img-thumbnail pull-left media-object" src="./pubs/jaiswal2019deeksha.png" alt="Performance" width="250" height="190">
+              <div class="media-body">
+                <h4>CDS&E: DEterministic Evaluation of Kinetic Boltzmann equation with Spectral H/p/v Accuracy (DEEKSHA)</h4>
+                <h5 class="media-heading muted"> <i>Shashank Jaiswal</i>, <a href="https://www.math.purdue.edu/~hu342/">Jingwei Hu</a>, and <a href="../~alexeenk">Alina A. Alexeenko</a></br>
+                <p><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1854829">Award Abstract #1854829</a>, 2019 National Science Foundation, Computational and Data-Enabled Science and Engineering  (CDS&E)</p>
+                </h5>
+                <p align="justify" class="abstract"><b>Abstract:</b> The goal of this project is to develop an open-source massively parallel computational software DEEKSHA (DEterministic Evaluation of Kinetic Boltzmann equation with Spectral h/p/v adaptivity and Accuracy) for scientific simulation of rarefied gas flows. Such gas flows occur in microdevices or at low gas densities, as in high-altitude atmospheric phenomena and in manufacturing processes that require vacuum conditions. Verification benchmarks and end-user demos will be developed to facilitate adoption of the new scientific simulation software by academia and industry and to provide the user and contributor base for sustained development. Specifically, the demonstration cases will include several classical rarefied flow problems such as Fourier and Couette flows, normal shock wave, pressure-driven and thermally-driven channel flows and thermal diffusion in gas mixtures. The computational solver will bridge the gap between existing continuum and atomistic simulations and would enable scientists and engineers to address so far intractable non-equilibrium transport problems for low-speed gas mixture flows of fundamental and practical interest. The specific applications that will be addressed in this project include trace gas separation and gas analytical technologies as well as ultra-high-heat flux evaporation cooling for high-performance integrated circuits. The computation solver will be released to the research community, and the results will be integrated into courses to educate students.
+</br>
+The new computational framework is based on the Discontinuous Galerkin Fast Spectral (DGFS) method which allows accurate deterministic solution of the full Boltzmann equation for arbitrary geometries and gas mixtures. The deterministic solution of the integro-differential Boltzmann equation is high order accurate in both physical and velocity space and time, free from statistical noise and sampling errors, and is particularly suitable for unsteady and low speed flow simulations. Due to the multi-dimensionality of physical and velocity phase space of the Boltzmann equation, the deterministic solution of rarefied flows is computationally demanding; hence, it requires solvers that are efficient on massively parallel architectures. The high-order h/p methods for the Boltzmann equation exhibit excellent parallel-scaling and serve as the basis of the proposed DEEKSHA framework. To broaden the impact of project, the computational solver will be released under a general, public license. The planned activities for dissemination to end-user communities include: a) workshops for developers and simulation bootcamps at conferences; b) integration of research results into courses taught at Purdue School of Astronautics and Aeronautics and Department of Mathematics as well as a webinar and interactive tool on Nanohub; and c) research experiences for undergraduate students through Purdue Engineering Summer Undergraduate Research Fellow program. 
+</br></br>
+<i style="color:red;">
+<a href="https://en.wikipedia.org/wiki/Diksha">"Deeksha"</a> is a Sanskrit word which "loosely" means “where the mind of two entities become one, and they work towards a common goal”. <!-- In the present scenario, this can be interpreted as: I am the one entity, and the other entity is advisers; and we are working towards a common goal i.e., advancing the state of the rarefied gas dynamics. Alternatively, it can be interpreted as: We are the one entity (the PI, Co-PI, student), and NSF is the second entity; and we are working towards the common goal of advancing the state of science.-->
+</i>
+</br></br>
+<i>I cowrote this proposal at 22, based on my Masters research work on "Discontinuous Galerkin Fast Spectral (DGFS)", which got funded for  ~0.35 million ... Cheers!</i>
+</p> 
+
+
+                <p> <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1854829">More Information</a></p>
+		</div>
+            </div>
+
+			<div role="separator" class="divider"><hr></hr></div>
+	
+			<!-- DGFS applications -->
+            
+			<div class="media">
+              <img class="img-thumbnail pull-left media-object" src="./pubs/jaiswal2019quantification.png" alt="Performance" width="250" height="190">
+              <div class="media-body">
+                <h4>Quantification of thermally-driven flows in microsystems using Boltzmann equation in deterministic and stochastic contexts</h4>
+                <h5 class="media-heading muted"> <i>Shashank Jaiswal</i>, Aaron Pikus, Andrew Strongrich,  <a href="https://scholar.google.com/citations?user=A1HLw_kAAAAJ&hl=en&oi=ao"> Israel B. Sebastião</a>, <a href="https://www.math.purdue.edu/~hu342/">Jingwei Hu</a>, and <a href="../~alexeenk">Alina A. Alexeenko</a></br>
+                <p>2019 American Institute of Physics (AIP), Physics of Fluids, Submitted: 30th April 2019, Accepted: 10th July 2019</p>
+                </h5>
+                <p align="justify" class="abstract"><b>Abstract:</b> When the flow is sufficiently rarefied, a temperature gradient, for example, between two walls separated by a few mean free paths, induces a gas flow---an observation attributed to the thermo-stress convection effects at microscale. The dynamics of the overall thermo-stress convection process is governed by the Boltzmann equation---an integro-differential equation describing the evolution of the molecular distribution function in six-dimensional phase space---which models dilute gas behavior at the molecular level to accurately describe a wide range of flow phenomena. Approaches for solving the full Boltzmann equation with general inter-molecular interactions rely on two perspectives: one stochastic in nature often delegated to the direct simulation Monte Carlo (DSMC) method; and the others deterministic by virtue. Among the deterministic approaches, the discontinuous Galerkin fast spectral (DGFS) method has been recently introduced for solving the full Boltzmann equation with general collision kernels, including the variable hard/soft sphere models---necessary for simulating flows involving diffusive transport. In this work, the deterministic DGFS method; Bhatnagar-Gross-Krook (BGK), Ellipsoidal statistical BGK, and Shakhov kinetic models; and the widely-used stochastic DSMC method, are utilized to assess the thermo-stress convection process in MIKRA---Micro In-Plane Knudsen Radiometric Actuator---a microscale compact low-power pressure sensor utilizing the Knudsen forces. BGK model under-predicts the heat-flux, shear-stress, and flow speed; S-model over-predicts; whereas ESBGK comes close to the DSMC results. On the other hand, both the statistical/DSMC and deterministic/DGFS methods, segregated in perspectives, yet, yield inextricable results, bespeaking the ingenuity of Graeme Bird who laid down the foundation of practical rarefied gas dynamics for microsystems. 
+                <p> <a href="./pubs/jaiswal2019quantification.pdf">PDF</a> | <a href="https://arxiv.org/abs/1905.01385">arXiv</a> | <a href="./pubs/jaiswal2019quantification.bib">BibTex</a></p>
+				<p>*Special issue dedicated to Graeme Bird</p>
+				</div>
+            </div>
+
+			<div role="separator" class="divider"><hr></hr></div>
+			
+		  
+		  	<!-- DGFS multi-specie on GPU -->
+            <div class="media">
+              <img class="img-thumbnail pull-left media-object" src="./pubs/jaiswal2019dgfsMultiSpeciesGPU.png" alt="Performance" width="250" height="190">
+              <div class="media-body">
+                <h4>A discontinuous Galerkin fast spectral method for multi-species full Boltzmann on streaming multi-processors*</h4>
+                <h5 class="media-heading muted"> <i>Shashank Jaiswal</i>, <a href="https://www.math.purdue.edu/~hu342/">Jingwei Hu</a>, Julien K. Brillon, and <a href="../~alexeenk">Alina A. Alexeenko</a></br>
+                <p>2019 Association for Computing Machinery (ACM), Platform for Advanced Scientific Computing (PASC)</p>
+                </h5>
+                <p align="justify" class="abstract"><b>Abstract:</b> When the molecules of a gaseous system are far apart, say in microscale gas flows where the surface to volume ratio is high and hence the surface forces dominant, the molecule-surface interactions lead to the formation of a local thermodynamically non-equilibrium region extending few mean free paths from the surface. The dynamics of such systems is accurately described by Boltzmann equation. However, the multi-dimensional nature of Boltzmann equation presents a huge computational challenge. With the recent mathematical developments and the advent of petascale, the dynamics of full Boltzmann equation is now tractable. We present an implementation of the recently introduced multi-species discontinuous Galerkin fast spectral (DGFS) method for solving full Boltzmann on streaming multi-processors. The present implementation solves the inhomogeneous Boltzmann equation in span of few minutes, making it at least two order-of-magnitude faster than the present state-of-art stochastic method---direct simulation Monte Carlo---widely used for solving Boltzmann equation. Various performance metrics, such as weak/strong scaling have been presented. A parallel efficiency of 0.96--0.99 is demonstrated on 36 Nvidia Tesla-P100 GPUs.</p>
+                <p><b style="color:red">Solves the time-accurate full <i>multi-species</i> 1-D Couette flow in <u>138 seconds</u> on a single GPU!</b> The <i>single species</i> &mdash; not included in the paper, but available in the source/code repository &mdash; solves the time-accurate full 1-D Couette/Fourier/Oscillatory-Couette flow in <i>~6 seconds</i> on a single GPU!</p>
+                <p> <a href="./pubs/jaiswal2019dgfsMultiSpeciesGPU.pdf">PDF</a> | <a href="https://arxiv.org/abs/1903.04670">arXiv</a> | <a href="./pubs/jaiswal2019dgfsMultiSpeciesGPU.bib">BibTex</a> | <a href="https://github.com/jaisw7/dgfs1D_gpu">Code</a> </p>
+				<p>*Awarded ACM SIGHPC travel grant (1 out of total 4 awardees across the globe; 1 out of total 2 awardees from outside Europe)</p>
+				</div>
+            </div>
+
+			<div role="separator" class="divider"><hr></hr></div>
+			
+			<!-- DGFS multi-specie -->
+            <div class="media">
+              <img class="img-thumbnail pull-left media-object" src="./pubs/jaiswal2019dgfsMulti.png" alt="Shock" width="250" height="190">
+              <div class="media-body">
+                <h4>A discontinuous Galerkin fast spectral method for the multi-species full Boltzmann equation</h4>
+                <h5 class="media-heading muted"> <i>Shashank Jaiswal</i>, <a href="../~alexeenk">Alina A. Alexeenko</a>, and <a href="https://www.math.purdue.edu/~hu342/">Jingwei Hu</a> </br>
+                <p>2019 Elsevier, Computer Methods in Applied Mechanics and Engineering, Submitted: 14th Dec 2018, Accepted: 9th April 2019</p>
+                </h5>
+                <p align="justify" class="abstract"><b>Abstract:</b> We introduce a fast Fourier spectral method for the multi-species Boltzmann collision operator. The method retains the riveting properties of the single-species fast spectral method (Gamba et al. SIAM J. Sci. Comput., 39 pp. B658--B674 2017) including: (a) spectral accuracy, (b) reduced computational complexity compared to direct spectral method, (c) reduced memory requirement in the precomputation, and (d) applicability to general collision kernels. The fast collision algorithm is then coupled with discontinuous Galerkin discretization in the physical space (Jaiswal et al. J. Comp. Phys., 378 pp. 178--208 2019) to result in a highly accurate deterministic method (DGFS) for the full Boltzmann equation of gas mixtures. A series of numerical tests is performed to illustrate the efficiency and accuracy of the proposed method. Various benchmarks highlighting different collision kernels, different mass ratios, momentum transfer, heat transfer, and in particular the diffusive transport have been studied. The results are directly compared with the direct simulation Monte Carlo (DSMC) method.</p>
+                <p> <a href="./pubs/jaiswal2019dgfsMulti.pdf">PDF</a> | <a href="https://arxiv.org/abs/1903.03056">arXiv</a> | <a href="./pubs/jaiswal2019dgfsMulti.bib">BibTex</a> </p>
+			   </div>
+            </div>
+
+            <div role="separator" class="divider"><hr></hr></div>
+
+			<!-- DGFS -->
+            <div class="media">
+              <img class="img-thumbnail pull-left media-object" src="./pubs/jaiswal2018dgfs.png" alt="BKW evolution" width="250" height="190">
+              <div class="media-body">
+                <h4>A discontinuous Galerkin fast spectral method for the full Boltzmann equation with general collision kernels</h4>
+                <h5 class="media-heading muted"> <i>Shashank Jaiswal</i>, <a href="../~alexeenk">Alina A. Alexeenko</a>, and <a href="https://www.math.purdue.edu/~hu342/">Jingwei Hu</a> </br>
+                <p>2018 Elsevier, Journal of Computational Physics, Submitted: 29th March 2018, Accepted: 1st November 2019</p>
+                </h5>
+                <p align="justify" class="abstract"><b>Abstract:</b> The Boltzmann equation, an integro-differential equation for the molecular distribution function in the physical and velocity phase space, governs the fluid flow behavior at a wide range of physical conditions, including compressible, turbulent, as well as flows involving further physics such as non-equilibrium internal energy exchange and chemical reactions. Despite its wide applicability, deterministic solution of the Boltzmann equation presents a huge computational challenge, and often the collision operator is simplified for practical reasons. In this work, we introduce a highly accurate deterministic method for the full Boltzmann equation which couples the Runge-Kutta discontinuous Galerkin (RKDG) discretization in time and physical space (Su et al., Comp. Fluids, 109 pp. 123-136, 2015) and the recently developed fast Fourier spectral method in velocity space (Gamba et al., SIAM J. Sci. Comput., 39 pp. B658–B674, 2017). The novelty of this approach encompasses three aspects: first, the fast spectral method for the collision operator applies to general collision kernels with little or no practical limitations, and in order to adapt to the spatial discretization, we propose here a singular-value-decomposition based algorithm to further reduce the cost in evaluating the collision term; second, the DG formulation employed has arbitraryhigh order of accuracy at element-level, and has shown to be more efficient than the finite volume method; thirdly, the element-local compact nature of DG as well as our collision algorithm is amenable to effective parallelization on massively parallel architectures. The solver has been verified against analytical Bobylev-Krook-Wu solution. Further, the standard benchmark test cases of rarefied Fourier heat transfer, Couette flow, oscillatory Couette flow, normal shock wave, lid-driven cavity flow, and thermally driven cavity flow have been studied and their results are compared against direct simulation Monte Carlo (DSMC) solutions with equivalent molecular collision models or published deterministic solutions.</p>
+                <p> <a href="./pubs/jaiswal2018dgfs.pdf">PDF</a> | <a href="https://arxiv.org/abs/1809.10186">arXiv</a> | <a href="./pubs/jaiswal2018dgfs.bib">BibTex</a> </p>
+              </div>
+            </div>
+
+            <div role="separator" class="divider"><hr></hr></div>
+
+	   <!-- DGFS-GPU -->
+            <div class="media">
+              <img class="img-thumbnail pull-left media-object" src="./pubs/jaiswal2018fast.png" alt="Scaling" width="250" height="190">
+              <div class="media-body">
+                <h4>Fast Deterministic Solution of the Full Boltzmann equation on Graphics Processing Units</h4>
+                <h5 class="media-heading muted"> <i>Shashank Jaiswal</i>, <a href="https://www.math.purdue.edu/~hu342/">Jingwei Hu</a>, and <a href="../~alexeenk">Alina A. Alexeenko</a></br>
+                <p>2018 Americal Institute of Physics, 31st Rarefied Gas Dynamics Symposium</p>
+                </h5>
+                <p align="justify" class="abstract"><b>Abstract:</b> The Boltzmann equation, a six-dimensional integro-differential equation, governs the fluid flow behavior at molecular level for a wide range of physical phenomena, including shocks, turbulence, diffusion, and non-equilibrium chemistry which are beyond the reach of continuum fluid flow modelling based on the Navier-Stokes equations. Despite Boltzmann equation's wide applicability, its deterministic solution presents a huge computational challenge, and  has been so far tractable only in simplified forms. We present the `first' Discontinuous Galerkin Fast Spectral (DGFS) method (Jaiswal et al. J. Compt. Phys. 2018) for solving the full Boltzmann equation on streaming multi-processors. The proposed method is flexible and robust allowing: a) arbitrary unstructured geometries, b) control of spatial accuracy using high-order polynomial approximation without compromising simulation stability, c) exponential error convergence (spectral accuracy) in velocity space, and d) compact nature of DG as well as collision operator thus minimizing communication and maximizing parallel efficiency. The DG operators (for instance gradient, curl, etc), as well as the collision operator is applied in an element-local way, with flux-based element-to-element coupling. It is this locality that equips DGFS with strong parallel performance on streaming multi-processors. In the present work, we describe, devise and implement DGFS for General-Purpose Graphics Processing Units (GP-GPU). We consider the simulations of 0D spatially homogeneous, and rarefied 1D Fourier heat transfer. A speedup of approximately 10--100x, and parallel efficiency of 0.95 is demonstrated on multi-CPU/multi-GPU architectures. It is this speedup that now allows researchers to solve problems within a day that would otherwise take months on traditional CPUs. The key optimizations and techniques used to achieve these GPU performance results have been highlighted. </p>
+                <p> <a href="./pubs/jaiswal2018fast.pdf">PDF</a> | <a href="./pubs/jaiswal2018fast.bib">BibTex</a> </p>
+              </div>
+            </div>
+
+            <div role="separator" class="divider"><hr></hr></div>
+			
+            <!-- FEMTA -->
+            <div class="media">
+              <img class="img-thumbnail pull-left media-object" src="./pubs/jaiswal2018femta.png" alt="FEMTA schematic" width="250" height="190">
+              <div class="media-body">
+                <h4>FEMTA Micropropulsion System Characterization by DSMC</h4>
+                <h5 class="media-heading muted"> <i>Shashank Jaiswal</i>, <a href="https://scholar.google.com/citations?user=A1HLw_kAAAAJ&hl=en&oi=ao"> Israel B. Sebastião</a>, Andrew Strongrich, and <a href="../~alexeenk"> Alina A. Alexeenko </a> </br>
+                <p>2018 Americal Institute of Physics, 31st Rarefied Gas Dynamics Symposium</p>
+                </h5>
+                <p align="justify" class="abstract"><b>Abstract:</b> CubeSats with compact, low-power attitude-control systems open up opportunities for deep-space missions as well as cost-effective constellation-based satellites targeting remote sensing and communication applications. Film Evaporation MEMS Tunable Array (FEMTA) is a micropropulsion technology that employs thermally-controlled surface tension in a microscale capillary for vaporization of liquid water propellant. FEMTA thrusters generate tunable thrust on the order of micro-newton with a thrust-to-power ratio of about 230 $\mu N/W$. Because of the small scale capillary on the order of 10 micron and below, the rarefied flow effects are significant for the vapor flow in this system. In the present work, the direct simulation Monte Carlo (DSMC) SPARTA solver is used to numerically evaluate two key aspects of the FEMTA system: a) the evaporation of the propellant in the quiescent system-state, i.e., without heaters actuation, and b) effect of plume expansion on the CubeSat walls to inform thrust cell placement. Both factors affect the propellant consumption and system lifetime. </p>
+                <p> <a href="./pubs/jaiswal2018femta.pdf">PDF</a> | <a href="./pubs/jaiswal2018femta.bib">BibTex</a> </p>
+              </div>
+            </div>
+
+            <div role="separator" class="divider"><hr></hr></div>			
+
+            <!-- M-1 -->
+            <div class="media">
+              <img class="img-thumbnail pull-left media-object" src="./pubs/jaiswal2018dsmc.png" alt="DSMC Inverse Schmidt" width="250" height="190">
+              <div class="media-body">
+                <h4>DSMC-SPARTA Implementation of M-1 Scattering Model</h4>
+                <h5 class="media-heading muted"> <i>Shashank Jaiswal</i>, <a href="https://scholar.google.com/citations?user=A1HLw_kAAAAJ&hl=en&oi=ao">Israel B. Sebastião</a>, and <a href="../~alexeenk">Alina A. Alexeenko</a> </br>
+                <p>2018 Americal Institute of Physics, 31st Rarefied Gas Dynamics Symposium</p>
+                </h5>
+                <p align="justify" class="abstract"><b>Abstract:</b> The direct simulation Monte Carlo (DSMC) method takes advantage of phenomenological models that can reproduce macroscopic transport and chemistry rates from elementary collisional kinetic data. As in classical kinetic theory of gases, reproduction of viscosity, thermal conductivity, and diffusion coefficients rely on the scattering dynamics that particles undergo during collisions. In this work, the still under-explored Kersch & Morokoff's (M-1) phenomenological scattering model is implemented in the DSMC-SPARTA solver. In essence, this model is a modification of the well-known variable hard/soft sphere (VHS/VSS) models for repulsive interactions to have a linear distribution of scattering angles in terms of the impact parameter. Such a feature, in general, better represents observations from quasi-classical trajectory (QCT) calculations based on ab-initio data. While the energy-dependence of M-1 collision cross-section remains the same as in VHS model, M-1 predicts more realistic diffusion coefficients that are ~20% higher than those obtained with VHS scattering law. M1-model recovers Schmidt numbers (Sc) within 5% of those obtained from the Lennard-Jones (LJ) and Abrahamson (Abr) interaction models at temperatures as high as 11,000 K. A distinct feature of M-1 model is the absence of the VSS anisotropic scattering fitting parameter ($\alpha$) and its applicability for large range of temperatures. In this aspect, without additional computational costs, M-1 model is potentially more suitable for conditions in which experimental diffusion-data is not available to fit the VSS parameter over a large temperature interval. </p>
+                <p> <a href="./pubs/jaiswal2018dsmc.pdf">PDF</a> | <a href="./pubs/jaiswal2018dsmc.bib">BibTex</a> </p>
+              </div>
+            </div>
+
+            <div role="separator" class="divider"><hr></hr></div>
+
+			<!-- MCF -->
+            <div class="media">
+              <img class="img-thumbnail pull-left media-object" src="./pubs/aaron2018dsmc.png" alt="DSMC NTC/MCF time-resolution" width="277" height="181">
+              <div class="media-body">
+                <h4>DSMC-SPARTA Implementation of Majorant Collision Frequency Scheme</h4>
+                <h5 class="media-heading muted"> Aaron Pikus, <a href="https://scholar.google.com/citations?user=A1HLw_kAAAAJ&hl=en&oi=ao">Israel B. Sebastião</a>, <i>Shashank Jaiswal</i>, Michael Gallis, and <a href="../~alexeenk">Alina A. Alexeenko</a> </br>
+                <p>2018 Americal Institute of Physics, 31st Rarefied Gas Dynamics Symposium</p>
+                </h5>
+                <p align="justify" class="abstract"><b>Abstract:</b> The direct simulation Monte Carlo (DSMC) method takes a stochastic approach to solving the Boltzmann equation, and is commonly used to model rarefied gas flows. The simulation domain is split into cells, in which computational representative particles mimic the real flow. Since millions to billions of particles need to be tracked, these models need to be both accurate and computationally efficient. Even with high-fidelity collision models, the overall accuracy of the DSMC outcome strongly depends on its ability to predict the correct number of collision events per simulated time step, i.e. the collision frequency. The two most popular approaches for this purpose are the no-time-counter (NTC) and majorant collision frequency (MCF) schemes. While the NTC scheme is designed to reproduce the average collision time for a sufficiently large sample sizes, the MCF scheme has the advantage of reproducing the exact Poisson distribution of collision time as well as the mean collision time with a reduced sample size. Both schemes have linear complexity of O(N), with N being the number of particles. In this work, we implement the MCF scheme in SPARTA, an open source DSMC solver. A series of numerical tests are performed to illustrate the efficiency and accuracy of both the schemes. Various benchmarks highlighting unsteady, compression, and expansion problems are studied. </p>
+                <p> <a href="./pubs/aaron2018dsmc.pdf">PDF</a> | <a href="./pubs/aaron2018dsmc.bib">BibTex</a> </p>
+              </div>
+            </div>
+			
+            <div role="separator" class="divider"><hr></hr></div>
+			
+		<h4> <b>Undergraduate:</b> </h4>
+            <!-- GPU -->
+            <div class="media">
+              <img class="img-thumbnail pull-left media-object" src="./pubs/jaiswal2016efficient.png" alt="Polyhedral mesh schematic" width="250" height="190">
+              <div class="media-body">
+                <h4>An Efficient GPU Parallelization for Arbitrary Collocated Polyhedral Finite Volume Grids and Its Application to Incompressible Fluid Flows</h4>
+                <h5 class="media-heading muted"> <i>Shashank Jaiswal</i>, Rajesh Reddy, <a href="https://www.iith.ac.in/~rajabanerjee/"> Raja Banerjee </a>, Shingo Sato, Daisuke Komagata, Makoto Ando, and Jun Okada </br>
+                <p>2016 IEEE, 23rd International Conference on High Performance Computing Workshops (HiPCW)</p>
+                </h5>
+                <p align="justify" class="abstract"><b>Abstract:</b> This paper presents GPU parallelization for a computational fluid dynamics solver which works on a mesh consisting of polyhedral cells, where each cell has an arbitrary number of faces and each face has an arbitrary number of vertices. The parallelization is achieved using NVIDIAs compute unified device architecture (CUDA). The developed code specifically targets performance improvement on NVIDIA Tesla accelerator GPUs. The implementation has been carried out in a general purpose open-source CFD framework namely OpenFOAM which is capable of solving arbitrary flow problems involving complex geometries with polyhedral unstructured grids. The present work considers incompressible flow simulations, where solving pressure Poisson equation is the most computationally expensive step. The Poisson equation is solved using conjugate gradient method preconditioned by algebraic multigrid method. This part of the solver is outsourced by OpenFOAM to GPU. The GPU pressure Poisson solver acceleration is determined with respect to OpenFOAM serial version (single cpu core) and MPI parallelized version (8 cpu cores). The GPU solver acceleration was tested by simulating a standard benchmark test case called lid driven cavity flow for different grid sizes. The current GPU based solver has shown a speedup of approximately 16x when compared to single cpu core and 3.3x when compared to OpenFOAM MPI version using 8 cpu cores, for a grid size of 5 million cells.</p>
+                <p> <a href="./pubs/jaiswal2016efficient.pdf">PDF</a> | <a href="./pubs/jaiswal2016efficient.bib">BibTex</a> </p>
+              </div>
+            </div>
+
+            <div role="separator" class="divider"><hr></hr></div>
+
+            <!-- Liquid-Drops -->
+            <div class="media">
+              <img class="img-thumbnail pull-left media-object" src="./pubs/holay2016high.png" alt="Binary Collision" width="250" height="250">
+              <div class="media-body">
+                <h4>High fidelity simulations of binary collisions of liquid drops</h4>
+                <h5 class="media-heading muted"> Sarang Holay, Rajesh Reddy, <i>Shashank Jaiswal</i>, and <a href="https://www.iith.ac.in/~rajabanerjee/"> Raja Banerjee </a> </br>
+                <p>2016 ILASS-Asia, 18th Annual Conference on Liquid Atomization and Spray Systems</p>
+                </h5>
+                <p align="justify" class="abstract"><b>Abstract:</b> The phenomena of binary droplet collision is seen in dispersed phase systems such as sprays in internal combustion engines, gas turbines, etc. The present work aims at understanding off-center collision dynamics of two droplets of unequal sizes. High fidelity simulations are performed using three dimensional, two phase- finite volume based solver in OpenFOAM platform. Volume of fluid (VOF) method is used for interface capturing. Navier-Stokes equations are solved using a projection algorithm. Simulations are done with MPI parallelization to meet the computational demand. The solver is validated against droplet splashing benchmark test case. The present numerical results study the effect of impact parameter and diameter ratio on droplet collision dynamics.</p>
+                <p> <a href="./pubs/holay2016high.pdf">PDF</a> | <a href="./pubs/holay2016high.bib">BibTex</a> </p>
+              </div>
+            </div>
+
+            <div role="separator" class="divider"><hr></hr></div>
+
+            <!-- Micronozzles: Unpublished, No BibTex -->
+            <!--
+			<div class="media">
+              <img class="img-thumbnail pull-left media-object" src="./pubs/jaiswal2016numerical.png" alt="Micronozzle Geometry" width="500" height="171">
+              <div class="media-body">
+                <h4>Numerical Simulations of Rarefied Gas Flows in Micronozzles</h4>
+                <h5 class="media-heading muted"> <i>Shashank Jaiswal</i>, <a href="https://linkedin.com/in/nishanthdongari">Nishanth Dongari</a>, Vijay Kumar Saraswat </p>
+                </h5>
+                <p align="justify" class="abstract"><b>Abstract:</b> The present study is concerned with the modelling of slip regime flow behavior in micronozzles using both the DSMC and Knudsen-layer models. We carry out our numerical simulations using open-source Computational Fluid Dynamics (CFD) and Direct simulation Monte-Carlo (DSMC) solvers available in OpenFOAM. The Navier-Stokes-Fourier (N-S-F) constitutive relations and non-equilibrium boundary conditions have been extended to capture the non-linear flow behavior associated with the Knudsen layer. In our study, the Knudsen number ranges from 0.005 < Kn < 0.05, and the associated throat Reynolds number varies from 5 to 500. For a given Knudsen number, DSMC and Knudsen layer results predict higher specific impulse compared to the conventional N-S-F model due to the shear thinning effect in the near-wall region. Owing to the inherent low Reynolds number of the flow, substantial viscous subsonic layers develop at the boundaries of the micronozzle, and their thickness is governed by Knudsen number. The viscous subsonic layer retards the bulk flow, and results in a decrease in nozzle thrust, and hence it is pertinent to predict the layer thickness accurately. The distribution of various flow parameters such as pressure, Mach number, slip velocity, and wall shear stress have been also reported. The simulation results indicate that the classical N-S-F equations along with the slip and jump boundary conditions, strongly deviate from DSMC. On the other hand, Knudsen-layer model shows fair agreement with the DSMC data, thereby improving the predictive capabilities of conventional N-S-F relations. </p>
+                <p> <a href="./pubs/jaiswal2016numerical.pdf">PDF</a> | <a href="./pubs/jaiswal2016numerical.bib">BibTex</a> </p>
+              </div>
+            </div>
+
+            <div role="separator" class="divider"><hr></hr></div>
+
+            <!-- Couette-Flow: Unpublished, No BibTex -->
+            <!--
+            <div class="media">
+              <img class="img-thumbnail pull-left media-object" src="./pubs/jaiswal2016modelling.png" alt="Slip at the walls" width="340" height="262">
+              <div class="media-body">
+                <h4>Modelling of Knudsen Layer Effects in Gaseous Couette Flows</h4>
+                <h5 class="media-heading muted"> <i>Shashank Jaiswal</i>, and <a href="https://linkedin.com/in/nishanthdongari">Nishanth Dongari</a>, Vijay Kumar Saraswat </p>
+                </h5>
+                <p align="justify" class="abstract"><b>Abstract:</b> We investigate micro-scale Couette gas flows in the slip and transition flow regimes by incorporating Knudsen layer effects along with the modified second-order velocity slip and temperature jump boundary conditions. We have tested our approach with low and high Mach number velocity-driven (Couette) flow cases, and temperature-driven (Fourier heat transfer) flows. Our model shows excellent agreement with the direct simulation Monte-Carlo (DSMC) and kinetic theory models, thereby capturing the non-linear effects in the near wall region. On contrary, the conventional slip model results significantly overpredict the flow parameters and fails to capture the non-linear behaviour observed in the Knudsen layer. The results show that our approach greatly improves the near-wall accuracy of the Navier-Stokes-Fourier equations for modelling microscale gas flows, well beyond the slip-flow regime. The Knudsen layer model predicts smaller velocity slip, temperature jump and shear stress, which are caused by the shear-thinning property of the non-linear constitutive model, that is, vanishing effective viscosity in the transition flow regime. The importance of this paper also stems from the numerical simulation of non-equilibrium gas flows, as the implementation of the Knudsen layer modelling approach have been carried out in an open source CFD toolbox (OpenFOAM) which is capable of computing flows involving complex geometries. </p>
+                <p> <a href="./pubs/jaiswal2016modelling.pdf">PDF</a> | <a href="./pubs/jaiswal2016modelling.bib">BibTex</a> </p>
+              </div>
+            </div>
+
+            <div role="separator" class="divider"><hr></hr></div>
+			-->
+			
+            <!-- Extended Navier-Stokes -->
+            <div class="media">
+              <img class="img-thumbnail pull-left media-object" src="./pubs/jaiswal2015implementation.png" alt="Molecule between walls" width="240" height="150">
+              <div class="media-body">
+                <h4>Implementation of Knudsen Layer Effects In Open Source CFD Solver for Effective Modeling of Microscale Gas Flows</h4>
+                <h5 class="media-heading muted"> <i>Shashank Jaiswal</i>, and <a href="https://linkedin.com/in/nishanthdongari">Nishanth Dongari</a> </br>
+                <p>2015 ISHMT-ASTFE, 1st International and 23rd National Heat and Mass Transfer Conference, Liquid Propulsion Systems Center (ISRO), Thiruvananthapuram, India</p>
+                </h5>
+                <!--
+                <p align="justify" class="abstract"><b>Abstract:</b> We incorporate the power law (PL) based geometry dependent mean free path (MFP) model into the open-source computational fluid dynamics (CFD) software OpenFOAM. As gas transport properties can be related to the mean free path through kinetic theory, the Navier-Stokes-Fourier constitutive relations are then modified in order to model the flow behavior in the Knudsen layers close to surfaces. The velocity slip and temperature jump boundary conditions are also modified in the rhoCentralFoam solver. We carry out numerical simulations in order to accuarately capture the knudsen-layer effect in microscale gas flows. Our model implementation is validated against the direct simulation Monte-Carlo (DSMC) data. The modified rhoCentralFOAM solver is applied to low and high mach number velocity-driven (Couette) flow and Fourier heat transfer in microchannels. The results show that our solver greatly improves the near-wall accuracy of the Navier-Stokes-Fourier equations, well beyond the slip-flow regime. The importance of this paper stems from the numerical simulation point of view, as OpenFOAM tool is open source, parallel-friendly, and able to solve flows involving complex geometries and unstructured mesh.</p>
+                -->
+                <p> <a href="./pubs/jaiswal2015implementation.pdf">PDF</a> | <a href="./pubs/jaiswal2015implementation.bib">BibTex</a> </p>
+              </div>
+            </div>
+          </div>  <!-- End Projects -->
+
+        </div> <!--  End tab-content -->
+      </div> <!-- End page-header -->
+    </div> <!-- End container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+    
+    <!--
+    <script src="js/docs.min.js"></script>
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    -->
+
+
+    <!-- google analytics -->
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-111506827-1']);
+    _gaq.push(['_setCookiePath', './~jaiswal0']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+    </script>
+
+
+	<!-- Hide abstracts -->
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var abstracts = document.getElementsByClassName('abstract') ;
+			for (var iabs_ = 0; iabs_<abstracts.length; iabs_++) {
+				var abs_ = abstracts[iabs_];
+				//abs_.style.display = 'none';
+				
+				// Truncate the abstract 
+				var text_ = abs_.innerText;
+				var trunc_text_ = text_.split(/\s+/).slice(1,20).join(" ");
+				//abs_.innerHTML = '<b>Abstract:</b> ' + trunc_text_ + ' ...';  
+				
+				// Insert a sibling
+				var newP = document.createElement('p');
+				newP.setAttribute("align", "justify");
+				newP.setAttribute("class", "abstract-short");
+				newP.innerHTML = '<b>Abstract:</b> ' + trunc_text_ + ' ...';  
+				//newP.onclick = function() {//$(this).style.display = 'none';}
+				//abs_.parentNode.insertBefore(newP, abs_.nextSibling);
+			}
+		});
+	</script>
+
+	
+  </body>
+</html>
+

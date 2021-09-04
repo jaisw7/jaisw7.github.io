@@ -1,0 +1,44 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+.img-thumbnail
+{
+	padding-right: 5px !important;
+	margin: 20px !important;
+}
+
+.mt-2 {
+  margin-top: 20px !important;
+}
+
+.mb-2 {
+  margin-bottom: 20px !important;
+}
+
+.text-sm {
+  font-size: small;
+}
+
+.text-light {
+  color: gray;
+}
+
+.text-justify {
+  text-align: justify;
+}
